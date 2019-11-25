@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+   
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin: 70px;
+  
+    /* align-items: center; */
+}
+.small-wrap {
+    display: grid;
+    max-width: 19rem;
+    height: 33rem;
+    margin: auto;
+    padding:15px 30px;
+      background:hsla(0, 0%, 21%, 0.49);
+      transition: all 1s ease;
+}
+.small-wrap:hover {
+    background: hsla(0, 0%, 33%, 0.42);
+}
+.small-wrap>h1:hover {
+   letter-spacing: .2em;
+}
+.jobs {
+    font-size: 2.3rem;
+    text-shadow: 0px 1px 3px hsla(334, 100%, 28%, 1);
+    font-family: 'Anton', sans-serif;
+}
+.title {
+    font-size: 3.5rem;
+    text-align: center;
+     text-shadow: 1px 1px 3px 1px hsla(334, 100%, 28%, 1);
+    text-transform: capitalize;
+}
+li {
+    text-decoration: none;
+}
